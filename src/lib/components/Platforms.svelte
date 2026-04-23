@@ -27,7 +27,7 @@
 			name: 'SYR1 Unofficial',
 			tagline: 'The community blog & newsletter for Amazon SYR1 associates.',
 			description:
-				'An independent community site for associates at Amazon\'s SYR1 fulfillment center in Clay, New York — covering news, safety tips, warehouse rights, and stories from the floor. Rustworks is proud to sponsor this associate-driven platform.',
+				"An independent community site for associates at Amazon's SYR1 fulfillment center in Clay, New York — covering news, safety tips, warehouse rights, and stories from the floor. Rustworks is proud to sponsor this associate-driven platform.",
 			href: 'https://syr1unofficial.com',
 			external: true
 		}
@@ -58,7 +58,18 @@
 				>
 					<div class="card-top">
 						<span class="platform-name">{platform.name}</span>
-						<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ext-icon" aria-hidden="true">
+						<svg
+							width="16"
+							height="16"
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="currentColor"
+							stroke-width="2"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							class="ext-icon"
+							aria-hidden="true"
+						>
 							<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
 							<polyline points="15 3 21 3 21 9" />
 							<line x1="10" y1="14" x2="21" y2="3" />
@@ -87,7 +98,18 @@
 				>
 					<div class="card-top">
 						<span class="platform-name">{s.name}</span>
-						<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ext-icon" aria-hidden="true">
+						<svg
+							width="16"
+							height="16"
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="currentColor"
+							stroke-width="2"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							class="ext-icon"
+							aria-hidden="true"
+						>
 							<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
 							<polyline points="15 3 21 3 21 9" />
 							<line x1="10" y1="14" x2="21" y2="3" />
