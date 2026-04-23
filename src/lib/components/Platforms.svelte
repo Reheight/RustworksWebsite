@@ -40,8 +40,8 @@
 			<p class="eyebrow">Our Platforms</p>
 			<h2>Platforms &amp; communities we power</h2>
 			<p class="section-subtitle">
-			Rustworks LLC powers these platforms end-to-end — infrastructure, security, and operations.
-			We also sponsor independent communities built by and for the people who need them.
+				Rustworks LLC powers these platforms end-to-end — infrastructure, security, and operations.
+				We also sponsor independent communities built by and for the people who need them.
 			</p>
 		</div>
 
