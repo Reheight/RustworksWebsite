@@ -4,7 +4,7 @@
 		'Enterprise security standards and data protection',
 		'Scalable infrastructure and performance',
 		'Legal compliance and regulatory adherence',
-		'Player-first community engagement',
+		'Client-first design and community engagement',
 		'Transparent and ethical practices'
 	];
 </script>

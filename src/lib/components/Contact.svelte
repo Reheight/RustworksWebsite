@@ -4,8 +4,8 @@
 			<p class="eyebrow">Get in Touch</p>
 			<h2>Let's build something together</h2>
 			<p class="lead">
-				Whether you need a scalable platform, robust infrastructure, or a gaming community built
-				from the ground up — we'd love to hear from you.
+				Whether you need a scalable platform, robust infrastructure, or a community built from the
+				ground up — whatever the domain, we'd love to hear from you.
 			</p>
 
 			<ul class="contact-points" role="list">
@@ -49,7 +49,7 @@
 						stroke-linejoin="round"
 						aria-hidden="true"><polyline points="20 6 9 17 4 12" /></svg
 					>
-					Gaming network partnerships
+					Community platform partnerships
 				</li>
 			</ul>
 		</div>

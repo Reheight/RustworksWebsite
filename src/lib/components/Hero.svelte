@@ -5,19 +5,18 @@
 	<div class="inner">
 		<div class="badge" data-reveal>
 			<span class="badge-dot" aria-hidden="true"></span>
-			Software &amp; Gaming Technology
+			Full-Stack Software &amp; Infrastructure
 		</div>
 
 		<h1 data-reveal data-reveal-delay="1">
 			Building and operating<br />
-			<span class="gradient-text">user-first platforms</span>
+			<span class="gradient-text">client-first platforms</span>
 		</h1>
 
 		<p data-reveal data-reveal-delay="2">
-			We handle the complete stack — from architecture and infrastructure to compliance and growth.
-			Trusted by gaming communities worldwide.
+			We own the complete stack — from architecture and infrastructure to security, compliance, and
+			growth. Whatever the domain, whoever the client.
 		</p>
-
 		<div class="actions" data-reveal data-reveal-delay="3">
 			<a href="#contact" class="btn-primary">Get in Touch</a>
 			<a href="#platforms" class="btn-secondary">
