@@ -74,19 +74,21 @@
 	}
 
 	.glow-left {
-		top: 15%;
-		left: -15%;
-		width: 55%;
-		height: 65%;
-		background: radial-gradient(circle, rgba(14, 165, 233, 0.1) 0%, transparent 70%);
+		top: -30%;
+		left: -35%;
+		width: 80%;
+		height: 85%;
+		background: radial-gradient(circle, rgba(14, 165, 233, 0.09) 0%, transparent 60%);
+		filter: blur(12px);
 	}
 
 	.glow-right {
-		bottom: 5%;
-		right: -10%;
-		width: 45%;
-		height: 55%;
-		background: radial-gradient(circle, rgba(139, 92, 246, 0.07) 0%, transparent 70%);
+		bottom: -20%;
+		right: -25%;
+		width: 70%;
+		height: 80%;
+		background: radial-gradient(circle, rgba(139, 92, 246, 0.07) 0%, transparent 60%);
+		filter: blur(12px);
 	}
 
 	.inner {
@@ -117,7 +119,7 @@
 		border-radius: 50%;
 		background: var(--accent);
 		flex-shrink: 0;
-		animation: pulse 2.4s ease-in-out infinite;
+		animation: pulse 3.2s ease-in-out infinite;
 	}
 
 	@keyframes pulse {
@@ -173,7 +175,7 @@
 		font-weight: 600;
 		text-decoration: none;
 		border-radius: 10px;
-		transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+		transition: all 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 	}
 
 	.btn-primary:hover {
@@ -195,7 +197,7 @@
 		font-weight: 500;
 		text-decoration: none;
 		border-radius: 10px;
-		transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+		transition: all 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 	}
 
 	.btn-secondary:hover {

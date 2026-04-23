@@ -182,7 +182,7 @@
 		background: var(--surface);
 		text-decoration: none;
 		color: inherit;
-		transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+		transition: all 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 	}
 
 	.card:hover {
@@ -209,7 +209,7 @@
 		color: var(--text-muted);
 		flex-shrink: 0;
 		margin-top: 2px;
-		transition: color 0.15s;
+		transition: color 0.22s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 	}
 
 	.card:hover .ext-icon {

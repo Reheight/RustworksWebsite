@@ -117,7 +117,7 @@
 	.card {
 		background: var(--surface);
 		padding: 2rem;
-		transition: background 0.2s ease;
+		transition: background 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 	}
 
 	.card:hover {

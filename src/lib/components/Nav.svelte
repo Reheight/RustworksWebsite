@@ -131,7 +131,7 @@
 		background-color: color-mix(in srgb, var(--bg) 85%, transparent);
 		backdrop-filter: blur(16px);
 		-webkit-backdrop-filter: blur(16px);
-		transition: border-color 0.3s ease;
+		transition: border-color 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 	}
 
 	.inner {
@@ -182,7 +182,7 @@
 		font-weight: 500;
 		color: var(--text-muted);
 		text-decoration: none;
-		transition: color 0.15s;
+		transition: color 0.22s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 	}
 
 	.links a:hover {
@@ -206,7 +206,7 @@
 		background: transparent;
 		color: var(--text-muted);
 		cursor: pointer;
-		transition: all 0.15s;
+		transition: all 0.22s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 		flex-shrink: 0;
 	}
 
@@ -226,7 +226,7 @@
 		font-weight: 600;
 		text-decoration: none;
 		border-radius: 8px;
-		transition: all 0.15s;
+		transition: all 0.22s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 		white-space: nowrap;
 	}
 
@@ -247,7 +247,7 @@
 		color: var(--text);
 		cursor: pointer;
 		flex-shrink: 0;
-		transition: all 0.15s;
+		transition: all 0.22s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 	}
 
 	.hamburger:hover {
@@ -269,7 +269,7 @@
 		color: var(--text);
 		text-decoration: none;
 		border-radius: 8px;
-		transition: background 0.15s;
+		transition: background 0.22s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 	}
 
 	.mobile-nav a:hover {

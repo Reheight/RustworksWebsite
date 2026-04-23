@@ -192,7 +192,7 @@
 		color: var(--text);
 		text-decoration: none;
 		letter-spacing: -0.015em;
-		transition: color 0.15s;
+		transition: color 0.22s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 	}
 
 	.email-address:hover {
@@ -218,7 +218,7 @@
 		font-weight: 600;
 		text-decoration: none;
 		border-radius: 10px;
-		transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+		transition: all 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 	}
 
 	.email-btn:hover {
