@@ -6,7 +6,10 @@
 					<span class="logo-mark" aria-hidden="true">R</span>
 					Rustworks
 				</a>
-				<p>Building and operating user-first platforms that prioritize operational excellence, security, and community engagement.</p>
+				<p>
+					Building and operating user-first platforms that prioritize operational excellence,
+					security, and community engagement.
+				</p>
 			</div>
 
 			<nav class="link-cols" aria-label="Footer navigation">
@@ -28,20 +31,40 @@
 						<li>
 							<a href="https://tropicalrust.org" target="_blank" rel="noopener noreferrer">
 								Tropical Rust
-								<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-label="Opens in new tab">
-									<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
-									<polyline points="15 3 21 3 21 9"/>
-									<line x1="10" y1="14" x2="21" y2="3"/>
+								<svg
+									width="11"
+									height="11"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2.5"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									aria-label="Opens in new tab"
+								>
+									<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+									<polyline points="15 3 21 3 21 9" />
+									<line x1="10" y1="14" x2="21" y2="3" />
 								</svg>
 							</a>
 						</li>
 						<li>
 							<a href="https://rustyrails.org" target="_blank" rel="noopener noreferrer">
 								Rusty Rails
-								<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-label="Opens in new tab">
-									<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
-									<polyline points="15 3 21 3 21 9"/>
-									<line x1="10" y1="14" x2="21" y2="3"/>
+								<svg
+									width="11"
+									height="11"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2.5"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									aria-label="Opens in new tab"
+								>
+									<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+									<polyline points="15 3 21 3 21 9" />
+									<line x1="10" y1="14" x2="21" y2="3" />
 								</svg>
 							</a>
 						</li>

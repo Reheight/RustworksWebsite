@@ -52,7 +52,7 @@
 
 		<div class="grid">
 			{#each services as service, i}
-				<div class="card" data-reveal data-reveal-delay={String(Math.min(i % 3 + 1, 5))}>
+				<div class="card" data-reveal data-reveal-delay={String(Math.min((i % 3) + 1, 5))}>
 					<div class="card-icon">
 						{@html service.icon}
 					</div>

@@ -14,17 +14,27 @@
 		</h1>
 
 		<p data-reveal data-reveal-delay="2">
-			We handle the complete stack — from architecture and infrastructure
-			to compliance and growth. Trusted by gaming communities worldwide.
+			We handle the complete stack — from architecture and infrastructure to compliance and growth.
+			Trusted by gaming communities worldwide.
 		</p>
 
 		<div class="actions" data-reveal data-reveal-delay="3">
 			<a href="#contact" class="btn-primary">Get in Touch</a>
 			<a href="#platforms" class="btn-secondary">
 				Explore our platforms
-				<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-					<line x1="5" y1="12" x2="19" y2="12"/>
-					<polyline points="12 5 19 12 12 19"/>
+				<svg
+					width="15"
+					height="15"
+					viewBox="0 0 24 24"
+					fill="none"
+					stroke="currentColor"
+					stroke-width="2.5"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					aria-hidden="true"
+				>
+					<line x1="5" y1="12" x2="19" y2="12" />
+					<polyline points="12 5 19 12 12 19" />
 				</svg>
 			</a>
 		</div>
@@ -112,8 +122,13 @@
 	}
 
 	@keyframes pulse {
-		0%, 100% { opacity: 1; }
-		50% { opacity: 0.35; }
+		0%,
+		100% {
+			opacity: 1;
+		}
+		50% {
+			opacity: 0.35;
+		}
 	}
 
 	h1 {

@@ -15,8 +15,8 @@
 			<p class="eyebrow">Our Focus</p>
 			<h2>What we stand for</h2>
 			<p class="lead">
-				Every decision we make is guided by a core set of principles that put users,
-				operators, and the broader community first.
+				Every decision we make is guided by a core set of principles that put users, operators, and
+				the broader community first.
 			</p>
 		</div>
 
@@ -24,8 +24,17 @@
 			{#each items as item, i}
 				<li class="item" data-reveal data-reveal-delay={String(Math.min(i + 1, 5))}>
 					<span class="check" aria-hidden="true">
-						<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-							<polyline points="20 6 9 17 4 12"/>
+						<svg
+							width="14"
+							height="14"
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="currentColor"
+							stroke-width="3"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+						>
+							<polyline points="20 6 9 17 4 12" />
 						</svg>
 					</span>
 					<span>{item}</span>
