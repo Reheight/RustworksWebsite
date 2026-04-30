@@ -57,7 +57,7 @@
 		</div>
 
 		<p class="group-label" data-reveal>Featured Projects</p>
-		<div class="sponsored-grid">
+		<div class="sponsored-grid featured-grid">
 			{#each featuredProjects as project, i}
 				<a
 					href={project.href}
@@ -320,6 +320,10 @@
 		display: grid;
 		grid-template-columns: 1fr;
 		gap: 1.25rem;
+	}
+
+	.featured-grid {
+		margin-bottom: 2.25rem;
 	}
 
 	.sponsored-card {
