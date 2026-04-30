@@ -32,6 +32,17 @@
 			external: true
 		}
 	];
+
+	const featuredProjects = [
+		{
+			name: 'RustTools',
+			tagline: 'The all-in-one platform for Rust server administrators.',
+			description:
+				'Manage players, run live RCON commands, monitor server health, and access a growing addon marketplace from one dashboard built by admins for admins.',
+			href: 'https://rusttools.rustworks.org',
+			external: true
+		}
+	];
 </script>
 
 <section id="platforms" class="section">
@@ -43,6 +54,45 @@
 				Rustworks LLC powers these platforms end-to-end — infrastructure, security, and operations.
 				We also sponsor independent communities built by and for the people who need them.
 			</p>
+		</div>
+
+		<p class="group-label" data-reveal>Featured Projects</p>
+		<div class="sponsored-grid">
+			{#each featuredProjects as project, i}
+				<a
+					href={project.href}
+					class="card"
+					target="_blank"
+					rel="noopener noreferrer"
+					data-reveal
+					data-reveal-delay={String(i + 1)}
+				>
+					<div class="card-top">
+						<span class="platform-name">{project.name}</span>
+						<svg
+							width="16"
+							height="16"
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="currentColor"
+							stroke-width="2"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							class="ext-icon"
+							aria-hidden="true"
+						>
+							<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+							<polyline points="15 3 21 3 21 9" />
+							<line x1="10" y1="14" x2="21" y2="3" />
+						</svg>
+					</div>
+					<p class="tagline">{project.tagline}</p>
+					<p class="description">{project.description}</p>
+					<div class="card-footer">
+						<span class="sponsor-badge">Featured project</span>
+					</div>
+				</a>
+			{/each}
 		</div>
 
 		<p class="group-label" data-reveal>Gaming Networks</p>
