@@ -22,17 +22,6 @@
 		}
 	];
 
-	const sponsored = [
-		{
-			name: 'SYR1 Unofficial',
-			tagline: 'The community blog & newsletter for Amazon SYR1 associates.',
-			description:
-				"An independent community site for associates at Amazon's SYR1 fulfillment center in Clay, New York — covering news, safety tips, warehouse rights, and stories from the floor. Rustworks is proud to sponsor this associate-driven platform.",
-			href: 'https://syr1unofficial.com',
-			external: true
-		}
-	];
-
 	const featuredProjects = [
 		{
 			name: 'RustTools',
@@ -135,44 +124,6 @@
 			{/each}
 		</div>
 
-		<p class="group-label sponsored-label" data-reveal>Sponsored Communities</p>
-		<div class="sponsored-grid">
-			{#each sponsored as s, i}
-				<a
-					href={s.href}
-					class="card sponsored-card"
-					target="_blank"
-					rel="noopener noreferrer"
-					data-reveal
-					data-reveal-delay={String(i + 1)}
-				>
-					<div class="card-top">
-						<span class="platform-name">{s.name}</span>
-						<svg
-							width="16"
-							height="16"
-							viewBox="0 0 24 24"
-							fill="none"
-							stroke="currentColor"
-							stroke-width="2"
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							class="ext-icon"
-							aria-hidden="true"
-						>
-							<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
-							<polyline points="15 3 21 3 21 9" />
-							<line x1="10" y1="14" x2="21" y2="3" />
-						</svg>
-					</div>
-					<p class="tagline">{s.tagline}</p>
-					<p class="description">{s.description}</p>
-					<div class="card-footer">
-						<span class="sponsor-badge">Sponsored by Rustworks</span>
-					</div>
-				</a>
-			{/each}
-		</div>
 	</div>
 </section>
 
@@ -312,32 +263,8 @@
 		border-bottom: 1px solid var(--border);
 	}
 
-	.sponsored-label {
-		margin-top: 3rem;
-	}
-
-	.sponsored-grid {
-		display: grid;
-		grid-template-columns: 1fr;
-		gap: 1.25rem;
-	}
-
 	.featured-grid {
 		margin-bottom: 2.25rem;
-	}
-
-	.sponsored-card {
-		border-style: dashed;
-	}
-
-	.sponsor-badge {
-		font-size: 0.75rem;
-		font-weight: 600;
-		color: var(--accent);
-		background: var(--accent-subtle);
-		padding: 0.25rem 0.625rem;
-		border-radius: 999px;
-		letter-spacing: 0.02em;
 	}
 
 	@media (max-width: 640px) {
